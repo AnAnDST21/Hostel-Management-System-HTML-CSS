@@ -1,0 +1,104 @@
+/*Styling for Sign in Page*/
+body{
+  margin:0;
+}
+h2{
+  text-align: center;
+  padding-top: 30px;
+}
+
+h3{
+  margin-top: 85px;
+  position:absolute;
+  left:50px;
+  text-align: left;
+  display:inline-block;
+  width:150px;
+}
+
+
+/*------------only for ids---------*/
+#center{
+  margin:auto;
+  position:absolute;
+  left:80px;
+  border-radius: 30px;
+}
+
+#down{
+  text-align: center;
+  margin-top: 325px;
+  font-size: 20px;
+}
+#arrow{
+  border-radius: 100%;
+  position:absolute;
+  top:25px;
+  left:25px;
+}
+
+#image-shift{
+  border-radius:20px;
+  margin-top:10px;
+  margin-left: 230px;
+}
+
+/*-----------only for classes-------*/
+.whitebox{
+  width:400px;
+  height:600px;
+  position:relative;
+  left: 400px;
+  right: 0px;
+  bottom: 720px;
+  z-index: 10;
+  background-color:white;
+  border-radius: 20px;
+}
+
+.semicircle{
+  background-color: #F2921D;
+  height:100px;
+  width:80px;
+  position:absolute;
+  left:390px;
+  top:350px;
+  border-radius:100% 0 0 100%;
+}
+
+.bigbox{
+  background-color: #F2921D;
+  width:600px;
+  height:735px;
+}
+
+.thirdbox{
+  border-radius: 20px;
+  background-color: #FED049;
+  width:400px;
+  height:500px;
+  position:relative;
+  left: 900px;
+  right: 0px;
+  bottom: 1200px;
+  z-index: 10;
+}
+
+.left-align{
+  padding-top: 30px;
+  position:absolute;
+  left:50px;
+  text-align: left;
+  display:inline-block;
+  width:150px;
+}
+
+.form{
+
+  margin-top:50px;
+  margin-left: 90px;
+}
+
+.bottom-form{
+  margin-top:40px;
+}

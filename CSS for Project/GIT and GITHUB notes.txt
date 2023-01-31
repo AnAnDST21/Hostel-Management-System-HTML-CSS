@@ -1,0 +1,79 @@
+/--------------------------  GIT  -------------------------/
+
+GIT basically used to store history of files or pages of its time to time changes in it.
+GITHUB allow us to host our project repositary.
+
+for set-up name  and email-id we used to wrtite in git as 
+    *git config --global user.name "your name"
+     git config --global user.email "email"
+There is another way to changes name and email-id
+     *git config --global --edit
+
+for making a new folder we write the command as
+	mkmdir foldername (it will create folder within folder
+and to get into that folder we write 
+	cd folder name/
+
+touch file-name.extension this command is used to create a new file in the directory
+
+Repositary means it is folder where all changes are saved that are made in the project or file like something delete or add something changes made in project are saved in 
+another folder of git that folder is called as repositary. 
+To get into the repositary we used to write command as git init
+
+git status used to tell that what are the changes made in project which saved and unsaved and the files which are not saved in git history are showed as untracked
+filed in terminal and if we want to make file on the stage where after that all changes in files can be saved in git history we used write command 
+as git add name-of-file-want-to-save.txt or git add -A it used to take all the files present in created folder on stage so now to save changes in git history
+we write command as git commit -m(it means message we can provide in between " ") "write the message" after we used stage command we do use commit command 
+to save the changes which was made in the file 
+
+When some one else done mistake in code of your project and you want complete same code back as it is it was before modified so then we use command 
+git checkout file-name-with-extension and if we want back all file as it was before modified then we use command git checkout -f so it will recover all project files
+
+git log command basically used to tell what all commit basically we have done and we have many commit and we want to see only last 5 commit then we have to write 
+command as git log -p -5
+
+git diff command compares the staging file with last workin file same file means is if we do some change in code and modify it and after that git diff command is 
+used then it used to compare staging code file with modified file and tell the user about modification
+
+If we want to compare statging area file with last commit file we use command as git diff --staged
+
+If we want to directly commit our file, it means that our file will not go first in staging area it will directly commit by using this 
+command git commit -a -m "message of user" but avoid using of this command 
+
+When we want to clear our terminal of git bash we basically use the command clear and declare it 
+
+If we want to list all our file then we use command ls this command will display all our files 
+
+If we include some file which is unnecessary made and has no use and we have done its staging as well as commit and now we want to remove that file then
+we use command git rm file-name-with-extension, this command will remove file from working directory and staging area and if we want that file will be remove only
+from staging area  and will remain save in nthe directory means hard disk then we use the command git rm --cached file-name-with-extension 
+
+After execution of git status -s command if it show red M before file name then it means that our file is modified in working directory and not come in staging area but
+if we execute git add modified-file-name-with-extension means file is now in staging area and after that we execute git status -s the it will show green M before 
+file name means it tells that our file is modified in staging area  
+
+while doing push(means sending file to the server) and pop(means loading file in our system) we don't want that unessary will also be send on the sever so we need 
+to create a file name touch .gitignore and if open this file and write some other unnessary file name that we don't want to send to the server  then the gitignore file
+will stop the file to be loaded on server and if we want any file with extension .html not to send on server the we use command *.html and if want to ignore any folder 
+then we use command folder-name/
+
+
+If we are working on some important project file and want to do some changes in file without effecting the working of main file due to some reason so we make copy of that 
+main file and now we can do changes in that copied file and it will won't  effect main file, so the copying of main file are called as branching and we do branching using 
+command git branch child-file-name but after using this command we will remain in master branch or parent branch and now we want to check the number of child file including
+parent file then we use command git branch and now we want to move on branch 
+copied file to do work on it we use command  git checkout child-file-name 
+If we want to merge master file as well as copied file work then we use command as git merge copied-file-name and if we want to make new branch as well as move into that 
+then we need write the comments as git checkout -b new-branch-name
+
+/---------------------------------GITHUB----------------------------------/
+The repository we created in github is our remote repository and we also have local repository that is git bash terminal so we will push local repository in remote repository, 
+so remote means the url where we host our repository
+
+If we want to upload our local master repository to the url we use command git push origin master
+
+If we want to give access of our github account to our computer so we do any read write work will automatically save in github account so we to deploy SSH Keys
+
+git push -u origin child or copied branch name will push the copy project file to the git account
+
+pullrequest in github means it is request to the owner of repository by the user to make changes in the repository
