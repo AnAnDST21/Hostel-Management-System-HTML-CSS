@@ -1,0 +1,103 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.offcanvas-body{
+  background-color: #279EFF;
+}
+
+.Body{
+  background-color:#141E46;
+  width:100%;
+  height:686px;
+}
+
+.canva{
+  background-color: #279EFF;
+}
+
+.welcome{
+  color: #F3FDE8; display:inline-block; width:400px; font-size:60px; position:relative; top:50px; left:120px;
+}
+
+.other-name{
+  color:#279EFF;
+  display:inline-block;
+  width:200px;
+  font-size:60px;
+  position:relative;
+  top:230px;
+  left:-280px;
+}
+
+.Unpaid-Section{
+  position:relative;
+  bottom:10px;
+  right:20px;
+  background-color: #279EFF;
+  display:inline-block;
+  width:400px;
+  height:200px;
+  border-radius:20px;
+}
+
+.unpaid-invoice{
+  font-size:30px; padding-left:15px;
+}
+
+.Unpaid{
+  color: #F3FDE8;
+  display:inline-block;
+  width:200px;
+  font-size:25px;
+  padding-left:10px;
+  position:relative;
+  top:5px;
+}
+
+.three{
+  color: #F3FDE8;
+  display:inline-block;
+  width:100px;
+  position:relative;
+  top:4px;
+  left:40px;
+  font-size:20px;
+}
+
+.Unpaid-section{
+  position:relative;
+  top:350px;
+  right:420px;
+  background-color: #279EFF;
+  display:inline-block;
+  width:400px;
+  height:200px;
+  border-radius:20px;
+}
+
+.Home-icon{
+  width:20px; height: 20px; position: relative; right:5px; bottom:3px;
+}
+
+.mess{
+  width:20px; height: 20px; position: relative; right:5px; bottom:3px;
+}
+
+.attendence{
+  width:20px; height: 20px; position: relative; right:5px; bottom:3px;
+}
+
+.invoices{
+  width:20px; height: 20px; position: relative; right:5px; bottom:3px;
+}
+
+.complaints{
+  width:20px; height: 20px; position: relative; right:5px; bottom:3px;
+}
+
+.suggestion{
+    width:20px; height: 20px; position: relative; right:5px; bottom:3px;
+}
