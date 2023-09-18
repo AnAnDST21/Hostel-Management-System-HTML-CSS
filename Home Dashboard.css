@@ -1,0 +1,162 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.canva{
+  background-color: #279EFF;
+  width:1480px;
+}
+
+.offcanvas-body{
+  background-color: #279EFF;
+}
+
+.Home-icon{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.mess{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.attendence{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.invoices{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.complaints{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.suggestion{
+    width:20px;
+    height: 20px;
+    position: relative;
+    right:5px;
+    bottom:3px;
+}
+
+.log-out{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.Body{
+  background-color:#141E46;
+  width:1480px;
+  height:667.5px;
+}
+
+.setting{
+  display:inline-block;
+  width:370px;
+  font-size: 60px;
+  color:#F3FDE8;
+  position:relative;
+  right:-410px;
+  top:-75px;
+}
+
+.change-password{
+  position: relative;
+  right:70px;
+  top:190px;
+  background-color:#279EFF;
+  display:inline-block;
+  width:500px;
+  heIght:350px;
+  border-radius: 20px;
+}
+
+.change{
+  font-size: 40px;
+  position:relative;
+  left:10px;
+  top:5px;
+}
+
+.old-pass{
+  font-size:25px;
+  position:relative;
+  left:15px;
+}
+
+.new-pass{
+  font-size:25px;
+  position:relative;
+  top:10px;
+  left:15px;
+}
+
+.old-pass-box{
+  width:425px;
+  height: 30px;
+  position:relative;
+  top:2px;
+  left:15px;
+  border-radius: 15px;
+  border:0;
+}
+
+.new-pass-box{
+  width:425px;
+  height: 30px;
+  position:relative;
+  top:10px;
+  left:15px;
+  border-radius: 15px;
+  border:0;
+}
+
+.image-position{
+  position:relative;
+  top:95px;
+  left:50px;
+  width:450px;
+  height:450px;
+}
+
+.Change-password{
+  height:40px;
+  width:200px;
+  position : relative;
+  top:30px;
+  left:20px;
+  border:0;
+  border-radius: 15px;
+  background-color: #141E46;
+  color:#F3FDE8;
+}
+
+.space{
+  position: relative;
+  top:20px;
+}
