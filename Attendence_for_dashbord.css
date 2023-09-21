@@ -1,0 +1,169 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.offcanvas-body{
+  background-color: #0E21A0;
+}
+
+.Body{
+  background-color:#F3FDE8;
+  width:1488px;
+  height:652px;
+}
+
+.canva{
+  width:1488px;
+  background-color: #0E21A0;
+}
+
+.Home-icon{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.mess{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.attendence{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.log-out{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.invoices{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.complaints{
+  width:20px;
+  height: 20px;
+  position: relative;
+  right:5px;
+  bottom:3px;
+}
+
+.suggestion{
+    width:20px;
+    height: 20px;
+    position: relative;
+    right:5px;
+    bottom:3px;
+}
+
+
+.attend{
+  color: #0E21A0;
+  font-size:80px;
+  position: relative;
+  top:20px;
+  left:500px;
+  display:inline-block;
+  width:400px;
+}
+
+.total-days{
+  font-size: 25px;
+  color: #0E21A0;
+  position:relative;
+  top:80px;
+  right:60px;
+  display:inline-block;
+  width:300px;
+}
+
+.present-days{
+  font-size: 25px;
+  color: #0E21A0;
+  position:relative;
+  top:80px;
+  right:100px;
+  display:inline-block;
+  width:300px;
+}
+
+.absent-days{
+  font-size: 25px;
+  color: #0E21A0;
+  position:relative;
+  top:80px;
+  right:120px;
+  display:inline-block;
+  width:300px;
+}
+
+.this-week{
+  background-color: #0E21A0;
+  color:#F3FDE8;
+  display:inline-block;
+  width:350px;
+  height:300px;
+  position:relative;
+  left:360px;
+  top:150px;
+  border-radius:10px;
+}
+
+.This{
+  font-size:25px;
+  position:relative;
+  top:15px;
+  left:10px;
+}
+
+.monday{
+  font-size:25px;
+  position:relative;
+  top:10px;
+  left:10px;
+}
+
+.sunday{
+  font-size:25px;
+  position:relative;
+  top:10px;
+  left:10px;
+}
+
+.size-graph{
+  position:relative;
+  top:80px;
+  left:350px;
+  width:350px;
+  height:350px;
+}
+.graph{
+  display:inline-block;
+  width:400px;
+}
+
+hr{
+    border-color:#F3FDE8;
+    border-width:20px;
+    border-height:10px;
+    border-style:dashed;
+}
